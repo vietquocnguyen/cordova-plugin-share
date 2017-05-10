@@ -8,6 +8,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.content.Intent;
+import android.net.Uri;
 
     /**
      * This class echoes a string called from JavaScript.
@@ -30,7 +31,7 @@ import android.content.Intent;
           try {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, text);
+            sendIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(text));
             sendIntent.setType(mimetype);
             cordova.getActivity().startActivity(Intent.createChooser(sendIntent, title));
             callbackContext.success();
