@@ -19,7 +19,7 @@ id="com.vqn.share"
                 <param name="android-package" value="com.vqn.share.Share"/>
             </feature>
         </config-file>
-        <source-file src="src/android/Share.java" target-dir="src/nl/madebymark/share" />
+        <source-file src="src/android/Share.java" target-dir="src/com/vqn/share" />
      </platform>
 
      <!-- ios -->
