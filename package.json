@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/vietquocnguyen/cordova-plugin-share#readme",
   "cordova": {
-    "id": "cordova-plugin-gallery-share",
+    "id": "cordova-plugin-share",
     "platforms": [
       "android"
     ]
