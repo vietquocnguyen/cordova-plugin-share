@@ -1,0 +1,29 @@
+{
+  "version": "0.1.1",
+  "name": "cordova-plugin-share",
+  "cordova_name": "Share",
+  "description": "Share",
+  "license": "Apache 2.0",
+  "repo": "https://github.com/vietquocnguyen/cordova-plugin-share.git",
+  "issue": "https://github.com/vietquocnguyen/cordova-plugin-share/issues",
+  "platforms": [
+    "android"
+  ],
+  "engines": [],
+  "englishdoc": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietquocnguyen/cordova-plugin-share.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vietquocnguyen/cordova-plugin-share/issues"
+  },
+  "homepage": "https://github.com/vietquocnguyen/cordova-plugin-share#readme",
+  "cordova": {
+    "id": "cordova-plugin-gallery-share",
+    "platforms": [
+      "android"
+    ]
+  },
+  "author": "vqndev"
+}
